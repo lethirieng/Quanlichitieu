@@ -1,0 +1,94 @@
+.main {
+    min-height: 100vh;
+    min-width: 100%;
+}
+.navbar {
+    width: 100%;
+    height: 87px;
+    background: #54E8BB;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.nav_back {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 35px;
+}
+.nav_logo {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 35px;
+}
+.nav_flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.center {
+    height: calc(100vh - 87px);
+    background: white;
+    padding: 23px;
+}
+
+.menu {
+  display:  flex;    
+justify-content: center;
+align-items: center;
+padding: 20px;
+}
+.menu > .item_menu {
+    padding:  10px 20px;
+    background: yellow;
+    border-radius: 30px;
+    margin: 2px;
+}
+.fake {
+   display: none; 
+}
+.btnfake {
+    background: transparent;
+    border: none;
+}
+
+.list {
+    padding: 20px;
+    border-radius: 10px;
+    display: flex ;
+    align-items: start;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+.item_list {
+    width: 800px;
+    text-align: center;
+    min-height: 100px;
+    background: white;
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.list_ment {
+    margin-top: 50px;
+    background: #FFE3BA;
+    border-radius: 10px;
+}
+.date {
+    position: absolute;
+     bottom: 0;
+     right: 0;
+     margin: 10px;
+}
+.meto {
+    position: absolute;
+     top: 0;
+    left: 0;
+     margin: 10px;
+    font-weight: bold;
+}
